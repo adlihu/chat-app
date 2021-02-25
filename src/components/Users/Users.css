@@ -1,0 +1,35 @@
+.textContainer {
+     display: flex;
+     flex-direction: column;
+     margin-right: 100px;
+     color: white;
+     height: 80%;
+     justify-content: space-between;
+   }
+   
+   .activeContainer {
+     display: flex;
+     align-items: center;
+     margin-bottom: 50%;
+   }
+   
+   .activeItem {
+     display: flex;
+     align-items: center;
+   }
+   
+   .activeContainer img {
+     padding-right: 10px;
+   }
+   
+   .textContainer h1 {
+     height:60px;
+     margin:0;
+     line-height: 60px;
+   }
+   
+   @media (min-width: 320px) and (max-width: 1200px) {
+     .textContainer {
+       display: none;
+     }
+   }
